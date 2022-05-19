@@ -1,7 +1,7 @@
 :root {
     --bs-body-bg: rgba(252, 251, 252);
     --primary-color: black;
-    --bs-body-font-family: 'Roboto', sans-serif;
+    --bs-body-font-family: "Segoe UI", 'Roboto', sans-serif !important;
 }
 
 nav {
@@ -76,7 +76,6 @@ ul.navbar-nav {
     background-color: rgba(58,18,10);
 }
 
-
 .container .rollers{
     flex: 0 0 230px;
 }
@@ -104,7 +103,7 @@ ul.navbar-nav {
 .container .rollers .wrapper{
     position: relative;
     width: 1400px;
-    height: 100px;
+    height: 200px;
     margin: 0 0 20px 0;
     flex: 0 0 auto;
 }
@@ -174,6 +173,7 @@ ul.navbar-nav {
 .container .rollers .wrapper .items-container .item{
     flex: 1 1 200px;
     min-width: 0;
+    height: 100%;
     margin: 20px;
 }
 .container .rollers .wrapper .items-container .item .cake {
@@ -181,7 +181,7 @@ ul.navbar-nav {
     width: 100%;
     opacity: 1;
     cursor: pointer;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 .container img{
