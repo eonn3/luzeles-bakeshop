@@ -202,7 +202,7 @@ ul.navbar-nav {
         font-size: 0.9rem!important;
     }
     .container .rollers .wrapper .items-container .item .cake {
-        opacity: 0.4;
+        opacity: 1;
     }
 }
 
@@ -251,6 +251,12 @@ ul.navbar-nav {
 }
 
 /* CONTACT */
+.body-link-button svg {
+    color: rgba(58,18,10);
+    height: 15%;
+    width:  15%;
+}
+
 input:focus {
     border: 3px solid rgba(58,18,10);
     border-radius: 4px;
